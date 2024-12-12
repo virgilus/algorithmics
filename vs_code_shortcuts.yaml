@@ -1,8 +1,8 @@
 # Classic shortcuts
 ## Editing
 Delete a line : ctrl + shift + k
-Inserting a line below: ctrl + enter
-Inserting a line above: ctrl + maj + enter
+Inserting a line below: ctrl + enter (doesn't work on notebooks!)
+Inserting a line above: ctrl + maj + enter (doesn't work on notebooks!)
 
 Select the current expression: cltr + d
 Select all current expressions and place a cursor: ctrl + shift + d
@@ -19,7 +19,9 @@ Move line down: alt + arrow down
 Add a cursor : ctrl + shift + arrow up (or arrow down)
 Expand Selection: shift + alt + left
 
-Comment : ctrl + / (so ctrl + shift + ":"" on french keyboards
+Comment : ctrl + / (so ctrl + shift + ":"" on french keyboards)
+
+Display doc string: ctrl + k ctrl + i
 
 ## Controlling VS Code
 Toogle left panel : ctrl + b
@@ -39,6 +41,7 @@ Select the entire line:
   - shortcut: ctrl + l
   - tweak: For ipynb, first go to shortcuts and remove the ctrl + l associated with notebook.centerActiveCell
 
-## Custom Jupyter Notebooks:
+## Virgile's custom Jupyter Notebooks shortcuts:
+## (You need to go to the shortcut menu and add them manually)
 Restart kernel and run all above selected cell : ctrl + maj + 0
 Interrupt Kernel: ctrl + i ctrl + i
